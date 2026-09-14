@@ -14,8 +14,12 @@ class Three {
 		this.context = new WebGLContext(this.container);
 		this.context.init();
 		this.scene = new Scene();
-		this.post = new PostProcessing(this.context.renderer, this.scene.scene, this.scene.camera);
-		this.post.setScanlineCount(this.scene.layout.height);
+		this.post = new PostProcessing(
+			this.context.renderer,
+			this.scene.scene,
+			this.scene.camera,
+		);
+
 		this.#animate();
 		this.#addResizeListener();
 	}
