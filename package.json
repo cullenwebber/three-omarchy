@@ -1,21 +1,21 @@
 {
-  "name": "wesley-demo",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "tailwindcss": "^4.1.18",
-    "vite": "^7.2.4",
-    "vite-plugin-glsl": "^1.5.5"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "maath": "^0.10.8",
-    "three": "^0.182.0"
-  }
+	"name": "three-omarchy",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"tailwindcss": "^4.1.18",
+		"vite": "^7.2.4",
+		"vite-plugin-glsl": "^1.5.5"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.18",
+		"maath": "^0.10.8",
+		"three": "^0.182.0"
+	}
 }
